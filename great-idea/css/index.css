@@ -71,16 +71,20 @@ h1, h2, h3, h4, h5 {
 }
 
 /* header */
+header {
+	display: flex;
+	justify-content: space-between;
+}
 
 header nav {
-  display: inline-block;
-  width: 691px;
+	display: flex;
+	justify-content: space-between;
+  width: 590px;
   vertical-align: top;
   margin-top: 35px;
 }
 
 header nav a {
-  margin-right: 65px;
   font-size: 14px;
   color: gray;
   text-decoration: none;
@@ -88,14 +92,6 @@ header nav a {
 
 header nav a:hover {
   text-decoration: underline;
-}
-
-header nav a:first-child {
-  margin-left: 0;
-}
-
-header nav a:last-child {
-  margin-right: 0;
 }
 
 header .logo {
@@ -132,6 +128,8 @@ header .logo {
   display: inline-block;
   margin-top: 69px;
 }
+
+/* main content */
 
 .main-content {
   border-top: 1px solid black;

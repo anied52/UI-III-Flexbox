@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+h1 {
+  font-size: 77px;
+}
 .container {
   width: 880px;
   /* TB LR */
@@ -109,7 +112,6 @@ header .logo {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-  font-size: 77px;
 	font-family: 'Bangers', cursive;
 	letter-spacing: 1px;
 	margin-bottom: 15px;

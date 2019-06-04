@@ -98,18 +98,25 @@ header .logo {
   margin-top: 25px;
 }
 
-/* cta */
-
-.cta .cta-text {
-  display: inline-block;
-  vertical-align: top;
-  font-size: 77px;
-  margin-top: 120px;
-  text-align: center;
-  padding: 0px 75px;
+/* sub-hdr */
+.sub-hdr {
+	display: flex;
+	justify-content: flex-end;
 }
 
-.cta .cta-text button {
+.sub-hdr .sub-hdr-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  font-size: 77px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+padding: 0px 75px;
+}
+
+.sub-hdr .sub-hdr-text button {
   background: white;
   vertical-align: top;
   margin-top: 6px;
@@ -119,12 +126,12 @@ header .logo {
   cursor: pointer;
 }
 
-.cta .cta-text button:hover {
+.sub-hdr .sub-hdr-text button:hover {
   background: black;
   color: white;
 }
 
-.cta img {
+.sub-hdr img {
   display: inline-block;
   margin-top: 69px;
 }

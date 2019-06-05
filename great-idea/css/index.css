@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
+   License: none (public do.main-index)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -68,6 +68,9 @@ h1 {
   font-size: 70px;
 }
 
+h3 {
+  font-size: 20px;
+}
 .container {
   width: 880px;
   /* TB LR */
@@ -136,37 +139,37 @@ header .logo {
   margin-top: 69px;
 }
 
-/* main content */
+/* main content for index page */
 
-main {
+.main-index {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
 }
 
-main .top-content {
+.main-index .top-content {
   display: flex;
   justify-content: space-between;
 }
 
-main .top-content .text-content {
+.main-index .top-content .text-content {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-main .middle-img {
+.main-index .middle-img {
   margin-top: 45px;
 }
 
-main .bottom-content {
+.main-index .bottom-content {
   display: flex;
   margin-top: 37px;
   justify-content: space-between;
 }
 
-main .bottom-content .text-content {
+.main-index .bottom-content .text-content {
   width: 33%;
   display: flex;
   flex-direction: column;
@@ -189,4 +192,45 @@ footer {
   font-size: 14px;
 }
 
-/* services specific formatting
+/* services specific formatting */
+.services-header-img {
+  margin-top: 15px;
+}
+
+.services-header {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+
+.main-services {
+  border-top: 1px solid black;
+  margin-top: 30px;
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-services section {
+  border: 1px solid black;
+  width: 425px;
+  margin-bottom: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-services section button {
+  width: 120px;
+  margin-top: 15px;
+}
+
+footer {
+  border-top: 1px solid black;
+  margin-top: 30px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}

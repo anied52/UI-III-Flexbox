@@ -146,18 +146,14 @@ main {
 
 main .top-content {
   display: flex;
+  justify-content: space-between;
 }
 
 main .top-content .text-content {
-  width: 410px;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
- /* margin-right: 34px;*/
-}
-
-main .top-content .text-content:last-child {
-  margin-right: 0;
 }
 
 main .middle-img {
@@ -167,17 +163,14 @@ main .middle-img {
 main .bottom-content {
   display: flex;
   margin-top: 37px;
-  padding: 0 10px;
+  justify-content: space-between;
 }
 
 main .bottom-content .text-content {
-  width: 275px;
-  display: inline-block;
-  margin-right: 12px;
-}
-
-main .bottom-content .text-content:last-child {
-  margin-right: 0;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .contact {

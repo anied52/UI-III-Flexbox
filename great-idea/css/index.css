@@ -138,42 +138,45 @@ header .logo {
 
 /* main content */
 
-.main-content {
+main {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
 }
 
-.main-content .top-content {
-  padding: 0 10px;
+main .top-content {
+  display: flex;
 }
 
-.main-content .top-content .text-content {
+main .top-content .text-content {
   width: 410px;
-  display: inline-block;
-  margin-right: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ /* margin-right: 34px;*/
 }
 
-.main-content .top-content .text-content:last-child {
+main .top-content .text-content:last-child {
   margin-right: 0;
 }
 
-.main-content .middle-img {
+main .middle-img {
   margin-top: 45px;
 }
 
-.main-content .bottom-content {
+main .bottom-content {
+  display: flex;
   margin-top: 37px;
   padding: 0 10px;
 }
 
-.main-content .bottom-content .text-content {
+main .bottom-content .text-content {
   width: 275px;
   display: inline-block;
   margin-right: 12px;
 }
 
-.main-content .bottom-content .text-content:last-child {
+main .bottom-content .text-content:last-child {
   margin-right: 0;
 }
 

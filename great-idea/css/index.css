@@ -227,10 +227,23 @@ footer {
   margin-top: 15px;
 }
 
-footer {
+.facts {
   border-top: 1px solid black;
   margin-top: 30px;
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
+}
+
+.facts div {
+  width: 425px;
+}
+
+.facts div ul {
+  margin-top: 20px;
+}
+
+.facts div ul li {
+  list-style-type: disc;
+  margin-left: 20px;
 }
